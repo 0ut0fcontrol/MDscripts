@@ -4,5 +4,5 @@ see [A Beginner's Guide to CHARMM](../ref/A_Beginner_s_Guide_to_CHARMM.pdf)
 
 example:        
     ```
-        awk -f fixpdb.awk segid=prot chainID=A <2ARC.pdb >protein.pdb
+        gawk -f fixpdb.awk segid=prot chainID=A <2ARC.pdb >protein.pdb
     ```
